@@ -1,6 +1,6 @@
 {
   "name": "@smake/co",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Typescript Module Template",
   "license": "MIT",
   "repository": "https://github.com/kuyoonjo/smake-lib-co.git",
@@ -18,7 +18,9 @@
     "js"
   ],
   "files": [
-    "lib"
+    "lib",
+    "co/include",
+    "co/src"
   ],
   "main": "lib/index",
   "types": "lib/index",
@@ -37,7 +39,7 @@
   "dependencies": {
     "@smake/libs": "^1.1.0",
     "glob": "^7.1.7",
-    "smake": "^0.3.13"
+    "smake": "^0.4.0"
   },
   "devDependencies": {
     "@types/glob": "^7.1.4",

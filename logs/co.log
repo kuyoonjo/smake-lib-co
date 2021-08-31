@@ -1,0 +1,276 @@
+I0831 08:12:48.164 10 co/test/co.cc:44] f2() r: false
+I0831 08:12:48.164 8 co/test/co.cc:53] co::Event wait in non-coroutine beg: 688802476
+I0831 08:12:48.164 11 co/test/co.cc:49] f3()
+I0831 08:12:48.164 8 co/test/co.cc:55] co::Event wait in non-coroutine end: 688802476
+I0831 08:12:48.164 11 co/test/co.cc:14] f1()
+I0831 08:12:48.164 11 co/test/co.cc:14] f1()
+I0831 08:12:48.164 10 co/test/co.cc:14] f1()
+I0831 08:12:48.164 10 co/test/co.cc:14] f1()
+I0831 08:12:48.164 13 co/test/co.cc:14] f1()
+I0831 08:12:48.164 12 co/test/co.cc:14] f1()
+I0831 08:12:48.164 13 co/test/co.cc:14] f1()
+I0831 08:12:48.164 12 co/test/co.cc:14] f1()
+I0831 08:12:48.432 8 co/test/co.cc:58] v: 8
+I0831 08:12:48.432 8 co/test/co.cc:59] n: 4
+I0831 08:12:48.432 12 co/test/co.cc:27] s: 2 c: 30
+I0831 08:12:48.432 12 co/test/co.cc:27] s: 2 c: 26
+I0831 08:12:48.432 12 co/test/co.cc:27] s: 2 c: 22
+I0831 08:12:48.432 12 co/test/co.cc:27] s: 2 c: 18
+I0831 08:12:48.432 12 co/test/co.cc:27] s: 2 c: 14
+I0831 08:12:48.432 12 co/test/co.cc:27] s: 2 c: 10
+I0831 08:12:48.432 12 co/test/co.cc:27] s: 2 c: 6
+I0831 08:12:48.432 12 co/test/co.cc:27] s: 2 c: 2
+I0831 08:12:48.432 11 co/test/co.cc:27] s: 1 c: 29
+I0831 08:12:48.432 11 co/test/co.cc:27] s: 1 c: 25
+I0831 08:12:48.432 11 co/test/co.cc:27] s: 1 c: 21
+I0831 08:12:48.432 11 co/test/co.cc:27] s: 1 c: 17
+I0831 08:12:48.432 11 co/test/co.cc:27] s: 1 c: 13
+I0831 08:12:48.432 11 co/test/co.cc:27] s: 1 c: 9
+I0831 08:12:48.432 11 co/test/co.cc:27] s: 1 c: 5
+I0831 08:12:48.432 11 co/test/co.cc:27] s: 1 c: 1
+I0831 08:12:48.432 10 co/test/co.cc:27] s: 0 c: 28
+I0831 08:12:48.432 10 co/test/co.cc:27] s: 0 c: 24
+I0831 08:12:48.432 10 co/test/co.cc:27] s: 0 c: 20
+I0831 08:12:48.432 10 co/test/co.cc:27] s: 0 c: 16
+I0831 08:12:48.432 10 co/test/co.cc:27] s: 0 c: 12
+I0831 08:12:48.432 10 co/test/co.cc:27] s: 0 c: 8
+I0831 08:12:48.432 10 co/test/co.cc:27] s: 0 c: 4
+I0831 08:12:48.432 10 co/test/co.cc:27] s: 0 c: 0
+I0831 08:12:48.432 13 co/test/co.cc:27] s: 3 c: 31
+I0831 08:12:48.432 13 co/test/co.cc:27] s: 3 c: 27
+I0831 08:12:48.432 13 co/test/co.cc:27] s: 3 c: 23
+I0831 08:12:48.432 13 co/test/co.cc:27] s: 3 c: 19
+I0831 08:12:48.432 13 co/test/co.cc:27] s: 3 c: 15
+I0831 08:12:48.432 13 co/test/co.cc:27] s: 3 c: 11
+I0831 08:12:48.432 13 co/test/co.cc:27] s: 3 c: 3
+I0831 08:12:48.432 13 co/test/co.cc:27] s: 3 c: 7
+I0831 08:18:27.412 10 co/test/co.cc:44] f2() r: false
+I0831 08:18:27.412 8 co/test/co.cc:53] co::Event wait in non-coroutine beg: 689141700
+I0831 08:18:27.412 11 co/test/co.cc:49] f3()
+I0831 08:18:27.412 8 co/test/co.cc:55] co::Event wait in non-coroutine end: 689141700
+I0831 08:18:27.412 10 co/test/co.cc:14] f1()
+I0831 08:18:27.412 10 co/test/co.cc:14] f1()
+I0831 08:18:27.412 11 co/test/co.cc:14] f1()
+I0831 08:18:27.412 12 co/test/co.cc:14] f1()
+I0831 08:18:27.412 11 co/test/co.cc:14] f1()
+I0831 08:18:27.412 13 co/test/co.cc:14] f1()
+I0831 08:18:27.412 12 co/test/co.cc:14] f1()
+I0831 08:18:27.412 13 co/test/co.cc:14] f1()
+I0831 08:18:27.680 8 co/test/co.cc:58] v: 8
+I0831 08:18:27.680 8 co/test/co.cc:59] n: 4
+I0831 08:18:27.680 12 co/test/co.cc:27] s: 2 c: 30
+I0831 08:18:27.680 12 co/test/co.cc:27] s: 2 c: 26
+I0831 08:18:27.680 12 co/test/co.cc:27] s: 2 c: 22
+I0831 08:18:27.680 12 co/test/co.cc:27] s: 2 c: 18
+I0831 08:18:27.680 12 co/test/co.cc:27] s: 2 c: 14
+I0831 08:18:27.680 12 co/test/co.cc:27] s: 2 c: 10
+I0831 08:18:27.680 12 co/test/co.cc:27] s: 2 c: 6
+I0831 08:18:27.680 12 co/test/co.cc:27] s: 2 c: 2
+I0831 08:18:27.680 11 co/test/co.cc:27] s: 1 c: 29
+I0831 08:18:27.680 11 co/test/co.cc:27] s: 1 c: 25
+I0831 08:18:27.680 11 co/test/co.cc:27] s: 1 c: 21
+I0831 08:18:27.680 11 co/test/co.cc:27] s: 1 c: 17
+I0831 08:18:27.680 11 co/test/co.cc:27] s: 1 c: 13
+I0831 08:18:27.680 11 co/test/co.cc:27] s: 1 c: 9
+I0831 08:18:27.680 11 co/test/co.cc:27] s: 1 c: 5
+I0831 08:18:27.680 11 co/test/co.cc:27] s: 1 c: 1
+I0831 08:18:27.680 10 co/test/co.cc:27] s: 0 c: 28
+I0831 08:18:27.680 10 co/test/co.cc:27] s: 0 c: 24
+I0831 08:18:27.680 10 co/test/co.cc:27] s: 0 c: 20
+I0831 08:18:27.680 10 co/test/co.cc:27] s: 0 c: 16
+I0831 08:18:27.680 10 co/test/co.cc:27] s: 0 c: 12
+I0831 08:18:27.680 10 co/test/co.cc:27] s: 0 c: 8
+I0831 08:18:27.680 10 co/test/co.cc:27] s: 0 c: 4
+I0831 08:18:27.680 10 co/test/co.cc:27] s: 0 c: 0
+I0831 08:18:27.680 13 co/test/co.cc:27] s: 3 c: 31
+I0831 08:18:27.680 13 co/test/co.cc:27] s: 3 c: 27
+I0831 08:18:27.680 13 co/test/co.cc:27] s: 3 c: 23
+I0831 08:18:27.680 13 co/test/co.cc:27] s: 3 c: 19
+I0831 08:18:27.680 13 co/test/co.cc:27] s: 3 c: 15
+I0831 08:18:27.680 13 co/test/co.cc:27] s: 3 c: 11
+I0831 08:18:27.680 13 co/test/co.cc:27] s: 3 c: 7
+I0831 08:18:27.680 13 co/test/co.cc:27] s: 3 c: 3
+I0831 08:19:58.942 14 co/test/co.cc:44] f2() r: false
+I0831 08:19:58.942 10 co/test/co.cc:53] co::Event wait in non-coroutine beg: 689233248
+I0831 08:19:58.942 15 co/test/co.cc:49] f3()
+I0831 08:19:58.942 16 co/test/co.cc:14] f1()
+I0831 08:19:58.942 10 co/test/co.cc:55] co::Event wait in non-coroutine end: 689233250
+I0831 08:19:58.942 14 co/test/co.cc:14] f1()
+I0831 08:19:58.942 17 co/test/co.cc:14] f1()
+I0831 08:19:58.942 14 co/test/co.cc:14] f1()
+I0831 08:19:58.942 17 co/test/co.cc:14] f1()
+I0831 08:19:58.942 15 co/test/co.cc:14] f1()
+I0831 08:19:58.942 15 co/test/co.cc:14] f1()
+I0831 08:19:58.942 16 co/test/co.cc:14] f1()
+I0831 08:19:59.217 10 co/test/co.cc:58] v: 8
+I0831 08:19:59.217 10 co/test/co.cc:59] n: 4
+I0831 08:19:59.217 16 co/test/co.cc:27] s: 2 c: 26
+I0831 08:19:59.217 16 co/test/co.cc:27] s: 2 c: 22
+I0831 08:19:59.217 16 co/test/co.cc:27] s: 2 c: 18
+I0831 08:19:59.217 16 co/test/co.cc:27] s: 2 c: 14
+I0831 08:19:59.217 16 co/test/co.cc:27] s: 2 c: 10
+I0831 08:19:59.217 16 co/test/co.cc:27] s: 2 c: 2
+I0831 08:19:59.217 16 co/test/co.cc:27] s: 2 c: 6
+I0831 08:19:59.217 16 co/test/co.cc:27] s: 2 c: 30
+I0831 08:19:59.217 17 co/test/co.cc:27] s: 3 c: 7
+I0831 08:19:59.217 17 co/test/co.cc:27] s: 3 c: 3
+I0831 08:19:59.217 17 co/test/co.cc:27] s: 3 c: 31
+I0831 08:19:59.217 17 co/test/co.cc:27] s: 3 c: 27
+I0831 08:19:59.217 17 co/test/co.cc:27] s: 3 c: 23
+I0831 08:19:59.217 17 co/test/co.cc:27] s: 3 c: 19
+I0831 08:19:59.217 17 co/test/co.cc:27] s: 3 c: 15
+I0831 08:19:59.217 17 co/test/co.cc:27] s: 3 c: 11
+I0831 08:19:59.217 15 co/test/co.cc:27] s: 1 c: 9
+I0831 08:19:59.217 15 co/test/co.cc:27] s: 1 c: 5
+I0831 08:19:59.217 15 co/test/co.cc:27] s: 1 c: 1
+I0831 08:19:59.217 15 co/test/co.cc:27] s: 1 c: 29
+I0831 08:19:59.217 15 co/test/co.cc:27] s: 1 c: 25
+I0831 08:19:59.217 15 co/test/co.cc:27] s: 1 c: 21
+I0831 08:19:59.217 15 co/test/co.cc:27] s: 1 c: 17
+I0831 08:19:59.217 15 co/test/co.cc:27] s: 1 c: 13
+I0831 08:19:59.217 14 co/test/co.cc:27] s: 0 c: 12
+I0831 08:19:59.217 14 co/test/co.cc:27] s: 0 c: 8
+I0831 08:19:59.217 14 co/test/co.cc:27] s: 0 c: 4
+I0831 08:19:59.217 14 co/test/co.cc:27] s: 0 c: 0
+I0831 08:19:59.217 14 co/test/co.cc:27] s: 0 c: 28
+I0831 08:19:59.217 14 co/test/co.cc:27] s: 0 c: 24
+I0831 08:19:59.217 14 co/test/co.cc:27] s: 0 c: 20
+I0831 08:19:59.217 14 co/test/co.cc:27] s: 0 c: 16
+I0831 08:20:04.955 13 co/test/co.cc:44] f2() r: false
+I0831 08:20:04.955 14 co/test/co.cc:49] f3()
+I0831 08:20:04.955 9 co/test/co.cc:53] co::Event wait in non-coroutine beg: 689239264
+I0831 08:20:04.955 13 co/test/co.cc:14] f1()
+I0831 08:20:04.955 15 co/test/co.cc:14] f1()
+I0831 08:20:04.955 16 co/test/co.cc:14] f1()
+I0831 08:20:04.955 9 co/test/co.cc:55] co::Event wait in non-coroutine end: 689239266
+I0831 08:20:04.955 14 co/test/co.cc:14] f1()
+I0831 08:20:04.955 14 co/test/co.cc:14] f1()
+I0831 08:20:04.955 13 co/test/co.cc:14] f1()
+I0831 08:20:04.955 15 co/test/co.cc:14] f1()
+I0831 08:20:04.955 16 co/test/co.cc:14] f1()
+I0831 08:20:05.234 9 co/test/co.cc:58] v: 8
+I0831 08:20:05.234 9 co/test/co.cc:59] n: 4
+I0831 08:20:05.234 15 co/test/co.cc:27] s: 2 c: 6
+I0831 08:20:05.234 14 co/test/co.cc:27] s: 1 c: 9
+I0831 08:20:05.234 15 co/test/co.cc:27] s: 2 c: 2
+I0831 08:20:05.234 15 co/test/co.cc:27] s: 2 c: 30
+I0831 08:20:05.234 14 co/test/co.cc:27] s: 1 c: 5
+I0831 08:20:05.234 14 co/test/co.cc:27] s: 1 c: 1
+I0831 08:20:05.234 14 co/test/co.cc:27] s: 1 c: 29
+I0831 08:20:05.234 14 co/test/co.cc:27] s: 1 c: 25
+I0831 08:20:05.234 14 co/test/co.cc:27] s: 1 c: 21
+I0831 08:20:05.234 14 co/test/co.cc:27] s: 1 c: 17
+I0831 08:20:05.234 15 co/test/co.cc:27] s: 2 c: 26
+I0831 08:20:05.234 14 co/test/co.cc:27] s: 1 c: 13
+I0831 08:20:05.234 15 co/test/co.cc:27] s: 2 c: 22
+I0831 08:20:05.234 15 co/test/co.cc:27] s: 2 c: 18
+I0831 08:20:05.234 15 co/test/co.cc:27] s: 2 c: 14
+I0831 08:20:05.234 15 co/test/co.cc:27] s: 2 c: 10
+I0831 08:20:05.234 13 co/test/co.cc:27] s: 0 c: 16
+I0831 08:20:05.234 13 co/test/co.cc:27] s: 0 c: 12
+I0831 08:20:05.234 13 co/test/co.cc:27] s: 0 c: 8
+I0831 08:20:05.234 13 co/test/co.cc:27] s: 0 c: 4
+I0831 08:20:05.234 13 co/test/co.cc:27] s: 0 c: 0
+I0831 08:20:05.234 13 co/test/co.cc:27] s: 0 c: 28
+I0831 08:20:05.234 13 co/test/co.cc:27] s: 0 c: 24
+I0831 08:20:05.234 13 co/test/co.cc:27] s: 0 c: 20
+I0831 08:20:05.234 16 co/test/co.cc:27] s: 3 c: 11
+I0831 08:20:05.234 16 co/test/co.cc:27] s: 3 c: 7
+I0831 08:20:05.234 16 co/test/co.cc:27] s: 3 c: 3
+I0831 08:20:05.234 16 co/test/co.cc:27] s: 3 c: 31
+I0831 08:20:05.234 16 co/test/co.cc:27] s: 3 c: 27
+I0831 08:20:05.234 16 co/test/co.cc:27] s: 3 c: 23
+I0831 08:20:05.234 16 co/test/co.cc:27] s: 3 c: 19
+I0831 08:20:05.234 16 co/test/co.cc:27] s: 3 c: 15
+I0831 08:20:31.370 13 co/test/co.cc:44] f2() r: false
+I0831 08:20:31.370 14 co/test/co.cc:49] f3()
+I0831 08:20:31.370 9 co/test/co.cc:53] co::Event wait in non-coroutine beg: 689265678
+I0831 08:20:31.370 9 co/test/co.cc:55] co::Event wait in non-coroutine end: 689265679
+I0831 08:20:31.370 13 co/test/co.cc:14] f1()
+I0831 08:20:31.370 15 co/test/co.cc:14] f1()
+I0831 08:20:31.370 16 co/test/co.cc:14] f1()
+I0831 08:20:31.370 14 co/test/co.cc:14] f1()
+I0831 08:20:31.370 14 co/test/co.cc:14] f1()
+I0831 08:20:31.370 13 co/test/co.cc:14] f1()
+I0831 08:20:31.370 16 co/test/co.cc:14] f1()
+I0831 08:20:31.370 15 co/test/co.cc:14] f1()
+I0831 08:20:31.653 9 co/test/co.cc:58] v: 8
+I0831 08:20:31.653 9 co/test/co.cc:59] n: 4
+I0831 08:20:31.653 14 co/test/co.cc:27] s: 1 c: 5
+I0831 08:20:31.653 14 co/test/co.cc:27] s: 1 c: 1
+I0831 08:20:31.653 14 co/test/co.cc:27] s: 1 c: 13
+I0831 08:20:31.653 14 co/test/co.cc:27] s: 1 c: 9
+I0831 08:20:31.653 14 co/test/co.cc:27] s: 1 c: 29
+I0831 08:20:31.653 14 co/test/co.cc:27] s: 1 c: 25
+I0831 08:20:31.653 14 co/test/co.cc:27] s: 1 c: 21
+I0831 08:20:31.653 14 co/test/co.cc:27] s: 1 c: 17
+I0831 08:20:31.653 13 co/test/co.cc:27] s: 0 c: 4
+I0831 08:20:31.653 13 co/test/co.cc:27] s: 0 c: 0
+I0831 08:20:31.653 16 co/test/co.cc:27] s: 3 c: 7
+I0831 08:20:31.653 13 co/test/co.cc:27] s: 0 c: 12
+I0831 08:20:31.653 16 co/test/co.cc:27] s: 3 c: 3
+I0831 08:20:31.653 13 co/test/co.cc:27] s: 0 c: 8
+I0831 08:20:31.653 16 co/test/co.cc:27] s: 3 c: 31
+I0831 08:20:31.653 13 co/test/co.cc:27] s: 0 c: 28
+I0831 08:20:31.653 16 co/test/co.cc:27] s: 3 c: 27
+I0831 08:20:31.653 13 co/test/co.cc:27] s: 0 c: 24
+I0831 08:20:31.653 16 co/test/co.cc:27] s: 3 c: 23
+I0831 08:20:31.653 13 co/test/co.cc:27] s: 0 c: 20
+I0831 08:20:31.653 16 co/test/co.cc:27] s: 3 c: 19
+I0831 08:20:31.653 13 co/test/co.cc:27] s: 0 c: 16
+I0831 08:20:31.653 16 co/test/co.cc:27] s: 3 c: 15
+I0831 08:20:31.653 16 co/test/co.cc:27] s: 3 c: 11
+I0831 08:20:31.653 15 co/test/co.cc:27] s: 2 c: 2
+I0831 08:20:31.653 15 co/test/co.cc:27] s: 2 c: 10
+I0831 08:20:31.653 15 co/test/co.cc:27] s: 2 c: 6
+I0831 08:20:31.653 15 co/test/co.cc:27] s: 2 c: 30
+I0831 08:20:31.653 15 co/test/co.cc:27] s: 2 c: 26
+I0831 08:20:31.653 15 co/test/co.cc:27] s: 2 c: 22
+I0831 08:20:31.653 15 co/test/co.cc:27] s: 2 c: 18
+I0831 08:20:31.653 15 co/test/co.cc:27] s: 2 c: 14
+I0831 08:20:33.642 13 co/test/co.cc:44] f2() r: false
+I0831 08:20:33.642 9 co/test/co.cc:53] co::Event wait in non-coroutine beg: 689267947
+I0831 08:20:33.642 14 co/test/co.cc:49] f3()
+I0831 08:20:33.642 9 co/test/co.cc:55] co::Event wait in non-coroutine end: 689267948
+I0831 08:20:33.642 13 co/test/co.cc:14] f1()
+I0831 08:20:33.642 16 co/test/co.cc:14] f1()
+I0831 08:20:33.642 15 co/test/co.cc:14] f1()
+I0831 08:20:33.642 14 co/test/co.cc:14] f1()
+I0831 08:20:33.642 15 co/test/co.cc:14] f1()
+I0831 08:20:33.642 14 co/test/co.cc:14] f1()
+I0831 08:20:33.642 13 co/test/co.cc:14] f1()
+I0831 08:20:33.642 16 co/test/co.cc:14] f1()
+I0831 08:20:33.922 9 co/test/co.cc:58] v: 8
+I0831 08:20:33.922 9 co/test/co.cc:59] n: 4
+I0831 08:20:33.922 14 co/test/co.cc:27] s: 1 c: 9
+I0831 08:20:33.922 14 co/test/co.cc:27] s: 1 c: 1
+I0831 08:20:33.922 14 co/test/co.cc:27] s: 1 c: 5
+I0831 08:20:33.922 14 co/test/co.cc:27] s: 1 c: 25
+I0831 08:20:33.922 16 co/test/co.cc:27] s: 3 c: 7
+I0831 08:20:33.922 16 co/test/co.cc:27] s: 3 c: 3
+I0831 08:20:33.922 16 co/test/co.cc:27] s: 3 c: 27
+I0831 08:20:33.922 16 co/test/co.cc:27] s: 3 c: 23
+I0831 08:20:33.922 16 co/test/co.cc:27] s: 3 c: 19
+I0831 08:20:33.922 16 co/test/co.cc:27] s: 3 c: 15
+I0831 08:20:33.922 16 co/test/co.cc:27] s: 3 c: 11
+I0831 08:20:33.922 16 co/test/co.cc:27] s: 3 c: 31
+I0831 08:20:33.922 15 co/test/co.cc:27] s: 2 c: 2
+I0831 08:20:33.922 15 co/test/co.cc:27] s: 2 c: 6
+I0831 08:20:33.922 15 co/test/co.cc:27] s: 2 c: 30
+I0831 08:20:33.922 15 co/test/co.cc:27] s: 2 c: 26
+I0831 08:20:33.922 15 co/test/co.cc:27] s: 2 c: 22
+I0831 08:20:33.922 15 co/test/co.cc:27] s: 2 c: 18
+I0831 08:20:33.922 15 co/test/co.cc:27] s: 2 c: 14
+I0831 08:20:33.922 15 co/test/co.cc:27] s: 2 c: 10
+I0831 08:20:33.922 14 co/test/co.cc:27] s: 1 c: 21
+I0831 08:20:33.922 14 co/test/co.cc:27] s: 1 c: 17
+I0831 08:20:33.922 14 co/test/co.cc:27] s: 1 c: 13
+I0831 08:20:33.922 14 co/test/co.cc:27] s: 1 c: 29
+I0831 08:20:33.922 13 co/test/co.cc:27] s: 0 c: 4
+I0831 08:20:33.922 13 co/test/co.cc:27] s: 0 c: 0
+I0831 08:20:33.922 13 co/test/co.cc:27] s: 0 c: 28
+I0831 08:20:33.922 13 co/test/co.cc:27] s: 0 c: 24
+I0831 08:20:33.922 13 co/test/co.cc:27] s: 0 c: 20
+I0831 08:20:33.922 13 co/test/co.cc:27] s: 0 c: 16
+I0831 08:20:33.922 13 co/test/co.cc:27] s: 0 c: 12
+I0831 08:20:33.922 13 co/test/co.cc:27] s: 0 c: 8

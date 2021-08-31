@@ -1,5 +1,7 @@
 import * as index from '../src/index';
 
-test('Should have Greeter available', () => {
-  expect(index.Greeter).toBeTruthy();
+test('Should available', () => {
+  expect(index.co_Darwin).toBeTruthy();
+  expect(index.co_Linux).toBeTruthy();
+  expect(index.co_Win32).toBeTruthy();
 });

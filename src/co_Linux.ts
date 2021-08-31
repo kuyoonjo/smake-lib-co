@@ -1,9 +1,9 @@
 import { sync } from 'glob';
 import { resolve } from 'path';
-import { LLVM, LLVM_Darwin } from 'smake';
+import { LLVM, LLVM_Linux } from 'smake';
 import { Framework } from '@smake/libs';
 
-export class co_Darwin extends LLVM_Darwin implements Framework {
+export class co_Linux extends LLVM_Linux implements Framework {
   get type() {
     return 'static' as any;
   }
@@ -18,7 +18,7 @@ export class co_Darwin extends LLVM_Darwin implements Framework {
     return [
       ...sync(
         resolve(__dirname, '..', 'co/src').replace(/\\/g, '/') +
-          '/**/!(*_win|epoll|iocp).cc'
+          '/**/!(*_win|kqueue|iocp).cc'
       ),
       resolve(__dirname, '..', 'co/src/co/context/context.S').replace(
         /\\/g,
@@ -27,14 +27,7 @@ export class co_Darwin extends LLVM_Darwin implements Framework {
     ];
   }
   get cxxflags() {
-    return [
-      ...super.cxxflags,
-      '-D_FILE_OFFSET_BITS=64',
-      '-std=c++17',
-      '-fno-pie',
-      '-fvisibility=hidden',
-      '-fvisibility-inlines-hidden',
-    ];
+    return [...super.cxxflags, '-D_FILE_OFFSET_BITS=64', '-std=c++17'];
   }
 
   framework(t: LLVM) {
@@ -54,6 +47,15 @@ export class co_Darwin extends LLVM_Darwin implements Framework {
     });
     Object.defineProperty(t, 'linkdirs', {
       value: [...t.linkdirs, d],
+      configurable: true,
+    });
+
+    Object.defineProperty(t, 'ldflags', {
+      value: [...t.ldflags, '-pthread', '-ldl'],
+      configurable: true,
+    });
+    Object.defineProperty(t, 'shflags', {
+      value: [...t.shflags, '-pthread', '-ldl'],
       configurable: true,
     });
   }

@@ -1,9 +1,9 @@
 import { sync } from 'glob';
 import { resolve } from 'path';
-import { LLVM, LLVM_Darwin } from 'smake';
+import { LLVM, LLVM_Win32 } from 'smake';
 import { Framework } from '@smake/libs';
 
-export class co_Darwin extends LLVM_Darwin implements Framework {
+export class co_Win32 extends LLVM_Win32 implements Framework {
   get type() {
     return 'static' as any;
   }
@@ -18,22 +18,47 @@ export class co_Darwin extends LLVM_Darwin implements Framework {
     return [
       ...sync(
         resolve(__dirname, '..', 'co/src').replace(/\\/g, '/') +
-          '/**/!(*_win|epoll|iocp).cc'
+          '/**/!(epoll|kqueue).cc'
+      ),
+      resolve(__dirname, '..', 'co/src/__/StackWalker.cpp').replace(/\\/g, '/'),
+      resolve(__dirname, '..', 'co/src/co/detours/creatwth.cpp').replace(
+        /\\/g,
+        '/'
+      ),
+      resolve(__dirname, '..', 'co/src/co/detours/detours.cpp').replace(
+        /\\/g,
+        '/'
+      ),
+      resolve(__dirname, '..', 'co/src/co/detours/image.cpp').replace(
+        /\\/g,
+        '/'
+      ),
+      resolve(__dirname, '..', 'co/src/co/detours/modules.cpp').replace(
+        /\\/g,
+        '/'
+      ),
+      resolve(__dirname, '..', 'co/src/co/detours/disasm.cpp').replace(
+        /\\/g,
+        '/'
       ),
       resolve(__dirname, '..', 'co/src/co/context/context.S').replace(
         /\\/g,
         '/'
       ),
+      // resolve(
+      //   __dirname,
+      //   '..',
+      //   'co/src/co/context/' +
+      //     (this.ARCH === 'x86_64' ? 'context_x64.asm' : 'context_x86.asm')
+      // ).replace(/\\/g, '/'),
     ];
   }
   get cxxflags() {
     return [
       ...super.cxxflags,
-      '-D_FILE_OFFSET_BITS=64',
+      '-DWIN32_LEAN_AND_MEAN',
+      '-D_WINSOCK_DEPRECATED_NO_WARNINGS',
       '-std=c++17',
-      '-fno-pie',
-      '-fvisibility=hidden',
-      '-fvisibility-inlines-hidden',
     ];
   }
 

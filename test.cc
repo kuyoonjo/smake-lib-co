@@ -1,6 +1,10 @@
 #include "co/co.h"
 #include <iostream>
 
+#if __cplusplus < 201402L
+
+#endif
+
 DEF_main(argc, argv) {
     co::Chan<int> ch;
     go([ch]() {
